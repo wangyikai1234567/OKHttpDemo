@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.bwie.com.okhttpdemo.MainActivity">
+
+    <Button
+        android:id="@+id/tget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get同步"/>
+
+    <Button
+        android:id="@+id/yget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get异步"/>
+
+    <Button
+        android:id="@+id/tpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post同步"/>
+
+    <Button
+        android:id="@+id/ypost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post异步"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asd"/>
+
+</LinearLayout>
